@@ -6,6 +6,8 @@ import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
+import SectonWrapper from '../hoc/SectionWrapper'
+
 const ServiceCard = ({ index, title, icon }) => {
   return(
     <Tilt className='xs:w-[250px] w-full'>
@@ -48,6 +50,7 @@ const About = () => {
         Even though I'm currently working as a backend developer I had my fair share of experience in
         frontend development. I have expertise in React, Node.js and Golang. I'm a quick learner
         and easly to work with. Always ready to take on new challenges.
+        Just started to step into the world of web3 and blockchain.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
@@ -59,4 +62,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectonWrapper(About, "about")
