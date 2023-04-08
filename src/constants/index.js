@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    keyvalue,
+    revertech,
+    go,
+    c,
+    python,
+    postgres,
+    nestjs
   } from "../assets";
   
   export const navLinks = [
@@ -81,10 +88,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -93,80 +96,64 @@ import {
       icon: nodejs,
     },
     {
+      name: "Nest JS",
+      icon: nestjs,
+    },
+    {
+      name: "Golang",
+      icon: go,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Postgres",
+      icon: postgres,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C",
+      icon: c,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Technical Intern",
+      company_name: "REVERTECH IT SOLUTIONS PVT LTD",
+      icon: revertech,
+      iconBg: "#FFFFFF",
+      date: "July 2021 - February 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing and maintaining a web chat applications using Python Flask and other related technologies.",
+        "Handled the intern team's leadership role. And during that period collaborated the various other teams inorder to deliver high quality product.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Handled the lead position of the intern team. ",
+        "Tech stacks in use at the time: Python Flask, MongoDB"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Associate Software Developer",
+      company_name: "KeyValue Software Systems",
+      icon: keyvalue,
+      iconBg: "#FFFFFF",
+      date: "July 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "I currently work as a backend developer who has expertise in Golang",
+        "Developing and maintaining web applications using Golang and other related technologies.",
+        "Collaborating to produce high-quality products with cross-functional teams that include designers, product managers, and other developers.",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tech stacks in use at the time: Golang, Postgres"
       ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [

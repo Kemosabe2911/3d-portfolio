@@ -30,6 +30,16 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import keyvalue from "./company/keyvalue.png";
+import revertech from "./company/revertech.png";
+
+import c from "./tech/c.png";
+import go from "./tech/go.png";
+import nestjs from "./tech/nestjs.png";
+import postgres from "./tech/postgres.png";
+import python from "./tech/python.png";
+
+
 export {
   logo,
   backend,
@@ -59,4 +69,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  keyvalue,
+  revertech,
+  c,
+  go,
+  python,
+  nestjs,
+  postgres
 };
