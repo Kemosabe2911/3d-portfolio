@@ -29,7 +29,8 @@ import {
     c,
     python,
     postgres,
-    nestjs
+    nestjs,
+    qrcodegenerator,
   } from "../assets";
   
   export const navLinks = [
@@ -204,6 +205,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/",
+      demo_link: "",
     },
     {
       name: "Job IT",
@@ -225,27 +227,29 @@ import {
       ],
       image: jobit,
       source_code_link: "https://github.com/",
+      demo_link: "",
     },
     {
-      name: "Trip Guide",
+      name: "QRCode Generator",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Using this website, you can create and download QR Codes for many purposes. This project makes use of thirdparty qrcode.js to generate qrcodes.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
+          name: "html",
+          color: "orange-text-gradient",
         },
         {
-          name: "supabase",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: qrcodegenerator,
+      source_code_link: "https://github.com/Kemosabe2911/QRCode-Generator",
+      demo_link: "https://kemosabe2911.github.io/QRCode-Generator/",
     },
   ];
   

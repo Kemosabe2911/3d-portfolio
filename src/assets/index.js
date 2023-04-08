@@ -39,6 +39,9 @@ import nestjs from "./tech/nestjs.png";
 import postgres from "./tech/postgres.png";
 import python from "./tech/python.png";
 
+import qrcodegenerator from './qrcodegenerator.png'
+import link from './link.png'
+
 
 export {
   logo,
@@ -75,5 +78,7 @@ export {
   go,
   python,
   nestjs,
-  postgres
+  postgres,
+  qrcodegenerator,
+  link
 };
