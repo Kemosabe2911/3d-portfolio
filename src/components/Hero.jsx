@@ -2,6 +2,7 @@ import { motion } from "framer-motion"
 
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
+import { logo, portfolioimg } from "../assets"
 
 const Hero = () => {
   return (
@@ -22,9 +23,17 @@ const Hero = () => {
             welcome new challenges
           </p>
         </div>
+
+        <div className="w-[500px] h-[300px] flex justify-end items-end mt-5 m-auto">
+          <img 
+            src={logo} 
+            alt="logo" 
+            className="w-full h-full"
+          />
+        </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center
       items-center">

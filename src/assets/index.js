@@ -41,6 +41,7 @@ import python from "./tech/python.png";
 
 import qrcodegenerator from './qrcodegenerator.png'
 import link from './link.png'
+import portfolioimg from './portfolioimg.png'
 
 
 export {
@@ -80,5 +81,6 @@ export {
   nestjs,
   postgres,
   qrcodegenerator,
-  link
+  link,
+  portfolioimg
 };
