@@ -31,6 +31,7 @@ import {
     postgres,
     nestjs,
     qrcodegenerator,
+    imgai,
   } from "../assets";
   
   export const navLinks = [
@@ -208,25 +209,25 @@ import {
       demo_link: "",
     },
     {
-      name: "Job IT",
+      name: "IMG.AI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An AI based image generation website. This website is a DALL-E clone. Make use of the MERN stack to store and display the images generated using OpenAI. ",
       tags: [
         {
-          name: "react",
+          name: "mern",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "openai",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
-        },
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: imgai,
+      source_code_link: "https://github.com/Kemosabe2911/Img.ai",
       demo_link: "",
     },
     {

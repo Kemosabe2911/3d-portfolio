@@ -40,6 +40,8 @@ import postgres from "./tech/postgres.png";
 import python from "./tech/python.png";
 
 import qrcodegenerator from './qrcodegenerator.png'
+import imgai from './imgai.png'
+
 import link from './link.png'
 import portfolioimg from './portfolioimg.png'
 
@@ -82,5 +84,6 @@ export {
   postgres,
   qrcodegenerator,
   link,
-  portfolioimg
+  portfolioimg,
+  imgai
 };
