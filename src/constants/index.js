@@ -33,6 +33,8 @@ import {
     qrcodegenerator,
     imgai,
     sumz,
+    github,
+    linkedin
   } from "../assets";
   
   export const navLinks = [
@@ -255,4 +257,17 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  const social = [
+    {
+      name: "Github",
+      link: "https://github.com/Kemosabe2911",
+      icon: github,
+    },
+    {
+      name: "LinkedIn",
+      link: "https://www.linkedin.com/in/stevin-prince-b07092183/",
+      icon: linkedin,
+    },
+  ];
+
+  export { services, technologies, experiences, testimonials, projects, social };

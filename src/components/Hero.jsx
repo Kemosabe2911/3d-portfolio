@@ -3,6 +3,23 @@ import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 import { logo, portfolioimg } from "../assets"
+import { social } from "../constants"
+
+const SocialIcon = ({name, link, icon}) => {
+  return (
+    <div
+      onClick={() => window.open(link, "_blank")}
+      className="black-gradient w-10 h-10 rounded-full flex justify-center 
+      items-center cursor-pointer"
+    >
+      <img
+        src={icon}
+        alt={name}
+        className="w-3/4 h-3/4 object-contain"
+      />
+    </div>
+  )
+}
 
 const Hero = () => {
   return (
@@ -22,9 +39,17 @@ const Hero = () => {
             Web Developer who always <br className="sm:block hidden" /> 
             welcome new challenges
           </p>
+          <div className="w-[200px] m-4 flex justify-evenly">
+            {social.map((data, index) => (
+              <SocialIcon 
+                key={`social-${index}`}
+                {...data}
+              />
+            ))}
+          </div>
         </div>
 
-        <div className="w-[500px] h-[300px] flex justify-end items-end mt-5 m-auto">
+        <div className="w-[500px] h-[300px] flex flex-col justify-end items-end mt-5 m-auto lg:block hidden">
           <img 
             src={logo} 
             alt="logo" 

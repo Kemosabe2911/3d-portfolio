@@ -45,7 +45,7 @@ import sumz from './sumz.png'
 
 import link from './link.png'
 import portfolioimg from './portfolioimg.png'
-
+import linkedin from './linkedin.png'
 
 export {
   logo,
@@ -87,5 +87,6 @@ export {
   link,
   portfolioimg,
   imgai,
-  sumz
+  sumz,
+  linkedin
 };
