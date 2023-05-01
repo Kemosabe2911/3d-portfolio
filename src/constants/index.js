@@ -32,6 +32,7 @@ import {
     nestjs,
     qrcodegenerator,
     imgai,
+    sumz,
   } from "../assets";
   
   export const navLinks = [
@@ -187,26 +188,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SumZ",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "An open source article summarizer that transforms lengthy articles into clear and concise summaries. Browse history is implemented using local storge.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "redux",
+          color: "orange-text-gradient",
         },
         {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-      demo_link: "",
+      image: sumz,
+      source_code_link: "https://github.com/Kemosabe2911/SumZ",
+      demo_link: "https://644556c5bf985c5b042abe15--beautiful-strudel-ac5f3e.netlify.app/",
     },
     {
       name: "IMG.AI",

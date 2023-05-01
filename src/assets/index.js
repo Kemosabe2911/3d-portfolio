@@ -41,6 +41,7 @@ import python from "./tech/python.png";
 
 import qrcodegenerator from './qrcodegenerator.png'
 import imgai from './imgai.png'
+import sumz from './sumz.png'
 
 import link from './link.png'
 import portfolioimg from './portfolioimg.png'
@@ -85,5 +86,6 @@ export {
   qrcodegenerator,
   link,
   portfolioimg,
-  imgai
+  imgai,
+  sumz
 };
