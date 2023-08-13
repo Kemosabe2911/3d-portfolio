@@ -58,12 +58,12 @@ import {
       icon: web,
     },
     {
-      title: "Blockchain Developer",
-      icon: mobile,
-    },
-    {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "Database Management",
+      icon: mobile,
     },
     {
       title: "Content Creator",
@@ -156,7 +156,9 @@ import {
         "Developing and maintaining web applications using Golang and other related technologies.",
         "Collaborating to produce high-quality products with cross-functional teams that include designers, product managers, and other developers.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-        "Tech stacks in use at the time: Golang, Postgres"
+        "Tech stacks in use at the time: Golang, Postgres",
+        "Integrated numerous third parties to the active projects",
+        "Had become knowledgeable with technologies like AWS, Docker, etc."
       ],
     }
   ];
