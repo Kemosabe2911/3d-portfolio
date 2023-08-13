@@ -44,7 +44,7 @@ import imgai from './imgai.png'
 import sumz from './sumz.png'
 
 import link from './link.png'
-import portfolioimg from './portfolioimg.png'
+import portfolioimg from './heroImg.jpeg'
 import linkedin from './linkedin.png'
 
 export {

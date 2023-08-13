@@ -9,13 +9,13 @@ const SocialIcon = ({name, link, icon}) => {
   return (
     <div
       onClick={() => window.open(link, "_blank")}
-      className="black-gradient w-10 h-10 rounded-full flex justify-center 
-      items-center cursor-pointer"
+      className="white-gradient w-10 h-10 rounded-full flex justify-center 
+      items-center cursor-pointer mt-10"
     >
       <img
         src={icon}
         alt={name}
-        className="w-3/4 h-3/4 object-contain"
+        className="object-contain"
       />
     </div>
   )
@@ -31,7 +31,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div className="mt-10">
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm &nbsp;
           <span className="text-[#915eff]">Stevin</span>
           </h1>
@@ -49,11 +49,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[500px] h-[300px] flex flex-col justify-end items-end mt-5 m-auto lg:block hidden">
-          <img 
-            src={logo} 
+        <div className="w-[350px] h-[400px] flex flex-col justify-end items-end mt-5 m-auto lg:block hidden">
+          <img
+            src={portfolioimg} 
             alt="logo" 
-            className="w-full h-full"
+            className="w-full h-full rounded-lg"
           />
         </div>
       </div>
