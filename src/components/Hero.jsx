@@ -49,11 +49,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[350px] h-[400px] flex flex-col justify-end items-end mt-5 m-auto lg:block hidden">
+        <div className="w-[350px] h-[400px] flex flex-col justify-end items-end mt-5 m-auto lg:block">
           <img
             src={portfolioimg} 
             alt="logo" 
-            className="w-full h-full rounded-lg"
+            className="w-full h-full rounded-full object-cover border-4 border-solid border-white"
           />
         </div>
       </div>
