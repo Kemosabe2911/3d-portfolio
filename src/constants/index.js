@@ -36,7 +36,8 @@ import {
     github,
     linkedin,
     carrot,
-    mpac
+    mpac,
+    twitterX
   } from "../assets";
   
   export const navLinks = [
@@ -102,10 +103,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
-    {
-      name: "Nest JS",
-      icon: nestjs,
-    },
+    // {
+    //   name: "Nest JS",
+    //   icon: nestjs,
+    // },
     {
       name: "Golang",
       icon: go,
@@ -321,6 +322,11 @@ import {
       name: "LinkedIn",
       link: "https://www.linkedin.com/in/stevin-prince-b07092183/",
       icon: linkedin,
+    },
+    {
+      name: "Twitter",
+      link: "https://twitter.com/prince_stevin",
+      icon: twitterX,
     },
   ];
 

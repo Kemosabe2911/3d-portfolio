@@ -47,7 +47,9 @@ import mpac from './mpac.png'
 
 import link from './link.png'
 import portfolioimg from './heroImg.jpeg'
-import linkedin from './linkedin.png'
+
+import linkedin from './social/linkedin.png'
+import twitterX from './social/twitterX.png'
 
 export {
   logo,
@@ -92,5 +94,6 @@ export {
   sumz,
   linkedin,
   carrot,
-  mpac
+  mpac,
+  twitterX
 };

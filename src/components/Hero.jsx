@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="w-[350px] h-[400px] flex flex-col justify-end items-end mt-5 m-auto lg:block">
+        <div className="w-[350px] h-[400px] flex flex-col justify-end items-end mt-5 m-auto lg:block hidden">
           <img
             src={portfolioimg} 
             alt="logo" 
