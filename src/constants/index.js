@@ -34,7 +34,9 @@ import {
     imgai,
     sumz,
     github,
-    linkedin
+    linkedin,
+    carrot,
+    mpac
   } from "../assets";
   
   export const navLinks = [
@@ -136,7 +138,7 @@ import {
       company_name: "REVERTECH IT SOLUTIONS PVT LTD",
       icon: revertech,
       iconBg: "#FFFFFF",
-      date: "July 2021 - February 2022",
+      date: "July 2021 - December 2021",
       points: [
         "Developing and maintaining a web chat applications using Python Flask and other related technologies.",
         "Handled the intern team's leadership role. And during that period collaborated the various other teams inorder to deliver high quality product.",
@@ -191,6 +193,56 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Carrot",
+      description:
+        "A Slack bot developed to help you easily access your stored documents and schedule events with reminders. ChatGPT feature is integrated.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "slack",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: carrot,
+      source_code_link: "https://github.com/Kemosabe2911/Carrot",
+    },
+    {
+      name: "MPAC",
+      description:
+        "A website developed for graduate students to buy and sell pre-owned study accessories. Most of the general e-commerce features have been included.",
+      tags: [
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "postgres",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ejs",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "nodemailer",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mpac,
+      source_code_link: "https://github.com/Kemosabe2911/MPAC",
+    },
     {
       name: "SumZ",
       description:
